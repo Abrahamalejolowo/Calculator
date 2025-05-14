@@ -1,0 +1,62 @@
+{
+	"name": "react-native-tailwind",
+	"displayName": "react-native-tailwind",
+	"description": "Tailwind  auto completion",
+	"icon": "react.png",
+	"repository": {
+		"url": "https://github.com/M4adan/react-native-tailwind.git"
+	},
+	"publisher": "M4adan",
+	"version": "0.0.3",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "react-native-tailwind.helloWorld",
+				"title": "Hello World"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^8.0.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.74.0",
+		"@vscode/test-electron": "^2.2.0",
+		"@vscode/vsce": "^2.16.0",
+		"axios": "^1.2.3",
+		"eslint": "^8.28.0",
+		"glob": "^8.0.3",
+		"jsdom": "^21.0.0",
+		"mocha": "^10.1.0",
+		"typescript": "^4.9.3"
+	},
+	"__metadata": {
+		"id": "3fe7268c-2e21-40dc-be1b-2c873a3676c4",
+		"publisherId": "f85e685f-29bd-43de-92bb-fe4d7273bc10",
+		"publisherDisplayName": "Madan",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1726830965823,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery",
+		"size": 433500
+	}
+}
